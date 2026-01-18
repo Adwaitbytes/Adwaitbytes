@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hey there! I’m Adwait Keshari — a curious builder who loves solving real-world problems through code, data, and creative thinking.<br><br>🔍 From exploring open-source to building practical projects (some weird, some wow), I’m always learning something new and trying to ship things that actually work.<br><br>💼 Currently looking for exciting opportunities — whether it's contributing to impactful products, collaborating with like-minded folks, or just leveling up through real-world experience.<br><br>If you're building something cool let's talk. I’m ready to roll. 
+👋 Hey there! I’m Adwait Keshari a curious builder who loves solving real-world problems through code, data, and creative thinking.<br><br>🔍 From exploring open-source to building practical projects (some weird, some wow), I’m always learning something new and trying to ship things that actually work.<br><br>💼 Currently looking for exciting opportunities whether it's contributing to impactful products, collaborating with like-minded folks, or just leveling up through real-world experience.<br><br>If you're building something cool let's talk. I’m ready to roll. 
 
 
 ## 🌐 Socials:
