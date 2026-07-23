@@ -24,7 +24,7 @@
 name: Adwait Keshari
 located_in: India
 education:
-  - IIT Madras BS
+  - Oriental Institute Of Science And Technology
 
 currently:
   - Building impactful products
