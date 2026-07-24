@@ -24,7 +24,7 @@
 name: Adwait Keshari
 located_in: India
 education:
-  - Oriental Institute Of Science And Technology
+  - IIT Madras 
 
 currently:
   - Building impactful products
@@ -46,7 +46,7 @@ technical_background:
   - "Web3: Solidity, Ethers.js, Hardhat"
 
 currently_learning: ["System Design", "Rust", "ZK Proofs"]
-2025_goals: ["Land dream role", "100+ contributions"]
+2026_goals: ["Land dream role", "100+ contributions"]
 
 fun_fact: "I debug better after midnight"
 ```
