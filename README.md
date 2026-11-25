@@ -15,6 +15,20 @@
 <!-- ANIMATED GRADIENT LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
 
+<!-- RECENT WORK -->
+## Recent work: correctness in LLM post-training ([Halo](https://github.com/whitecircle/halo))
+
+Three bugs I found, reproduced on CPU and fixed (with tests) in White Circle's open-source post-training framework:
+
+| Issue | What was wrong | Measured impact | Fix |
+|---|---|---|---|
+| [#231](https://github.com/whitecircle/halo/issues/231) | RL math grader accepted any answer within 1%, so `895` scored as correct for `902` | wrong integers paid on 77% of AIME 2024 and 93% of DAPO-Math-17k answers | [precision-aware matching](https://github.com/Adwaitbytes/halo/compare/main...fix/numeric-match-stated-precision) |
+| [#232](https://github.com/whitecircle/halo/issues/232) | offline GRPO's `1/group_size` weighting cancelled by per-micro-batch normalization | objective changed with batch / grad-accum / DP split; a no-op in every shipped recipe | [step-global normalizer](https://github.com/Adwaitbytes/halo/compare/main...fix/offline-grpo-step-normalizer) |
+| [#233](https://github.com/whitecircle/halo/issues/233) | text DPO trained a second end-of-turn token on Qwen3.5 and Gemma 4 | 2 extra trained tokens on every preference row | [template-terminator tokenization](https://github.com/Adwaitbytes/halo/compare/main...fix/dpo-double-terminator) |
+
+<!-- GRADIENT LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
+
 <!-- ABOUT ME SECTION -->
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="28" /> &nbsp;About Me</h2>
 
@@ -32,6 +46,7 @@ currently:
   - Exploring Web3 & blockchain
 
 fields_of_interest:
+  - LLM Post-Training (RL, DPO, GRPO)
   - Full Stack Development
   - System Design
   - Distributed Systems
